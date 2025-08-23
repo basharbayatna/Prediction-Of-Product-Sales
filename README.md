@@ -84,10 +84,12 @@ Most items weigh between **5–20 kg**, with a peak around **-1 kg** due to the 
 - Evaluating performance with regression metrics.  
 
 ---
-## 🚀 Information 
-- For any Questions or Recommendations
-  # Bashar Bayatna (Mechatronics Engineer|Junior Data Scientist)
-  # Basharbayatna11@gmail.com
+##  Information 
+ For any Questions or Recommendations
+  - Bashar Bayatna (Mechatronics Engineer|Junior Data Scientist)
+  - Basharbayatna11@gmail.com
+
+---
 
 
 
