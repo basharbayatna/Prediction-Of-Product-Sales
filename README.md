@@ -74,7 +74,7 @@ Most items weigh between **5–20 kg**, with a peak around **-1 kg** due to the 
 
 ### 2️⃣ Correlation Heatmap
 <img width="1273" height="836" alt="Heatmap" src="https://github.com/user-attachments/assets/e7636b8f-f367-414c-829e-3f08700ddf7a" />
-<img width="1273" height="836" alt="HeatMap" src="https://github.com/user-attachments/assets/000af869-fd7a-43a9-b76f-de25b90ec165" />
+
 
  
 `Item_MRP` has the strongest positive correlation with `Item_Outlet_Sales`, indicating that price plays a significant role in sales prediction.  
