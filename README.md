@@ -8,16 +8,18 @@ The goal is to help retailers understand the properties of products and outlets 
 
 ## 📊 Project Overview
 - **Objective**: Build a predictive model for `Item_Outlet_Sales` based on product and store characteristics.  
-- **Data Source**: [Original dataset link here].  
+- **Data Source**: [https://drive.google.com/file/d/1syH81TVrbBsdymLT_jl2JIf6IjPXtSQw/view)].  
 - **Key Tasks**:
   1. Data loading and cleaning.
   2. Exploratory Data Analysis (EDA).
-  3. Feature engineering and modeling (later parts).
+  3. Feature engineering and modeling.
 
 ---
 
 ## 📂 Dataset Information
 The dataset contains information about products and outlets, with the target variable being **Item_Outlet_Sales**.
+for this Data there is 8523 Rows and 12 Columns
+##Data Dictionary
 
 | Variable Name              | Description |
 |-----------------------------|-------------|
@@ -40,7 +42,7 @@ The dataset contains information about products and outlets, with the target var
 Using **Pandas** to prepare the dataset for analysis:
 1. Checked the number of rows and columns.  
 2. Inspected datatypes of each variable.  
-3. Removed duplicates (if any).  
+3. Removed duplicate.  
 4. Identified missing values and replaced them with placeholder values.  
 5. Ensured there are no missing values after cleaning.  
 6. Standardized categorical entries (e.g., fixing inconsistencies in `Item_Fat_Content`).  
