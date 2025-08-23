@@ -85,12 +85,5 @@ Most items weigh between **5–20 kg**, with a peak around **-1 kg** due to the 
 
 ---
 
-##  
-
-
----
-
-##  
-
 
 
