@@ -65,7 +65,8 @@ Using **Matplotlib** and **Seaborn** Wrapper
 ## 🔍 Key Insights from Visuals
 
 ### 1️⃣ Distribution of `Item_Weight`
-<img width="580" height="455" alt="Distributions of Items Weight" src="https://github.com/user-attachments/assets/de8f0afc-8b41-4810-9ff4-b0c964ba80b6" />
+<img width="580" height="455" alt="Distributions of Items Weight" src="https://github.com/user-attachments/assets/b957dfeb-37cf-45e8-bd00-0602163b0a97" />
+
 
 Most items weigh between **5–20 kg**, with a peak around **-1 kg** due to the missing values.  
 
