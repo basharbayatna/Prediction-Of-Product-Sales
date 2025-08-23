@@ -85,11 +85,12 @@ Most items weigh between **5–20 kg**, with a peak around **-1 kg** due to the 
 
 ---
 
-## 🤝 Contributing
-Contributions are welcome! Please open an issue or submit a pull request.  
+##  
+
 
 ---
 
-## 📜 License
-This project is licensed under the MIT License.  
+##  
+
+
 
