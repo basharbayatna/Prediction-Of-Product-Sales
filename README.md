@@ -64,14 +64,14 @@ Created different plots to explore the dataset:
 ## 🔍 Key Insights from Visuals
 
 ### 1️⃣ Distribution of `Item_Weight`
-![Histogram] <img width="580" height="455" alt="Distributions of Items Weight" src="https://github.com/user-attachments/assets/de8f0afc-8b41-4810-9ff4-b0c964ba80b6" />
+<img width="580" height="455" alt="Distributions of Items Weight" src="https://github.com/user-attachments/assets/de8f0afc-8b41-4810-9ff4-b0c964ba80b6" />
 
 Most items weigh between **5–20 kg**, with a peak around **-1 kg** due to the missing values.  
 
 ---
 
 ### 2️⃣ Correlation Heatmap
-![Heatmap] <img width="1273" height="836" alt="Heatmap" src="https://github.com/user-attachments/assets/e7636b8f-f367-414c-829e-3f08700ddf7a" />
+<img width="1273" height="836" alt="Heatmap" src="https://github.com/user-attachments/assets/e7636b8f-f367-414c-829e-3f08700ddf7a" />
  
 `Item_MRP` has the strongest positive correlation with `Item_Outlet_Sales`, indicating that price plays a significant role in sales prediction.  
 
