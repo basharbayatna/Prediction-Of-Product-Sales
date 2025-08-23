@@ -19,8 +19,8 @@ The goal is to help retailers understand the properties of products and outlets 
 
 ## 📂 Dataset Information
 The dataset contains information about products and outlets, with the target variable being **Item_Outlet_Sales**.
-for this Data there is 8523 Rows and 12 Columns
-##Data Dictionary
+for this Dataset there is 8523 Rows and 12 Columns
+## Data Dictionary
 
 | Variable Name              | Description |
 |-----------------------------|-------------|
