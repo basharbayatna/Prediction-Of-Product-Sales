@@ -52,7 +52,8 @@ Using **Pandas** to prepare the dataset for analysis:
 ---
 
 ## 📈 Part 3: Exploratory Data Analysis (EDA)
-Created different plots to explore the dataset:  
+Created different plots to explore the dataset: 
+Using **Matplotlib** and **Seaborn** Wrapper 
 
 - **Histograms** → to view distributions of numerical features.  
 - **Boxplots** → to visualize statistical summaries and outliers.  
