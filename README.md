@@ -1,3 +1,5 @@
+![logan-voss-WRmoJBqzXNA-unsplash](https://github.com/user-attachments/assets/46e70e3e-faea-4760-9134-f0288bd2c085)
+![logan-voss-WRmoJBqzXNA-unsplash](https://github.com/user-attachments/assets/1ca668a3-0af5-405f-ac8a-a79af6434c11)
 # Prediction-Of-Product-Sales
 #  Sales Prediction for Food Items
 
