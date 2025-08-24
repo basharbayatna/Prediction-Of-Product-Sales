@@ -64,20 +64,19 @@ Using **Matplotlib** and **Seaborn** Wrapper
 
 ## 🔍 Key Insights from Visuals
 
-### 1️⃣ Distribution of `Item_Weight`
+### 1️⃣ Product Sales Distribution (Target)
+<img width="571" height="455" alt="Product Sales Distribution" src="https://github.com/user-attachments/assets/3d7c04ac-90ce-4b1f-bf6c-3dc9e9398b4d" />
+
+The distribution of product sales is positively skewed. The majority of products record low to moderate sales (mostly under 2000 units), while a smaller number reach much higher sales values.  
+
+
+---
+### 2️⃣ Distribution of `Item_Weight`
 <img width="580" height="455" alt="Distributions of Items Weight" src="https://github.com/user-attachments/assets/b957dfeb-37cf-45e8-bd00-0602163b0a97" />
 
 
 Most items weigh between **5–20 kg**, with a peak around **-1 kg** due to the missing values.  
 
----
-### 2️⃣ Product Sales Distribution
-<img width="571" height="455" alt="Product Sales Distribution" src="https://github.com/user-attachments/assets/3d7c04ac-90ce-4b1f-bf6c-3dc9e9398b4d" />
-
-
-
- 
-The distribution of product sales is positively skewed. The majority of products record low to moderate sales (mostly under 2000 units), while a smaller number reach much higher sales values.  
 
 ---
 
