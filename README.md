@@ -9,7 +9,7 @@ The goal is to help retailers understand the properties of products and outlets 
 
 ## 📊 Project Overview
 - **Objective**: Build a predictive model for `Item_Outlet_Sales` based on product and store characteristics.  
-- **Data Source**: [https://drive.google.com/file/d/1syH81TVrbBsdymLT_jl2JIf6IjPXtSQw/view)].  
+- **Data Source**: https://drive.google.com/file/d/1syH81TVrbBsdymLT_jl2JIf6IjPXtSQw/view).  
 - **Key Tasks**:
   1. Data loading and cleaning.
   2. Exploratory Data Analysis (EDA).
