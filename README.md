@@ -71,8 +71,16 @@ Using **Matplotlib** and **Seaborn** Wrapper
 Most items weigh between **5–20 kg**, with a peak around **-1 kg** due to the missing values.  
 
 ---
+### 2️⃣ Product Sales Distribution
+<img width="571" height="455" alt="Product Sales Distribution" src="https://github.com/user-attachments/assets/3d7c04ac-90ce-4b1f-bf6c-3dc9e9398b4d" />
 
-### 2️⃣ Correlation Heatmap
+
+
+ 
+The distribution of product sales is positively skewed. The majority of products record low to moderate sales (mostly under 2000 units), while a smaller number reach much higher sales values.  
+
+
+### 3️⃣ Correlation Heatmap
 <img width="1273" height="836" alt="Heatmap" src="https://github.com/user-attachments/assets/e7636b8f-f367-414c-829e-3f08700ddf7a" />
 
 
@@ -80,6 +88,8 @@ Most items weigh between **5–20 kg**, with a peak around **-1 kg** due to the 
 `Item_MRP` has the strongest positive correlation with `Item_Outlet_Sales`, indicating that price plays a significant role in sales prediction.  
 
 ---
+
+
 
 ## 🚀 Next Steps
 - Feature engineering to improve data quality.  
