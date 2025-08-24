@@ -79,6 +79,7 @@ Most items weigh between **5–20 kg**, with a peak around **-1 kg** due to the 
  
 The distribution of product sales is positively skewed. The majority of products record low to moderate sales (mostly under 2000 units), while a smaller number reach much higher sales values.  
 
+---
 
 ### 3️⃣ Correlation Heatmap
 <img width="1273" height="836" alt="Heatmap" src="https://github.com/user-attachments/assets/e7636b8f-f367-414c-829e-3f08700ddf7a" />
