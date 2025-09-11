@@ -99,7 +99,7 @@ Most items weigh between **5–20 kg**, with a peak around **-1 kg** due to the 
 ---
 ##  Information 
  For any Questions or Recommendations:
-  - Bashar Bayatna (Mechatronics Engineer|Junior Data Scientist)
+  - Bashar Bayatna Mechatronics Engineer|Junior Data Scientist
   - Basharbayatna11@gmail.com
 
 ---
