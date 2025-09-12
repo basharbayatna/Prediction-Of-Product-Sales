@@ -65,6 +65,8 @@ Using **Matplotlib** and **Seaborn** Wrapper
 ## 🔍 Key Insights from Visuals
 
 ### 1️⃣ Product Sales Distribution (Target)
+<img width="764" height="525" alt="image" src="https://github.com/user-attachments/assets/968c675b-859d-4bc6-aa24-7d32c685b4f2" />
+
 [plot.html](https://github.com/user-attachments/files/22300171/plot.html)
 
 [Copy_of_Prediction_Of_Product_Sales.ipynb - Colab.html](https://github.com/user-attachments/files/22300244/Copy_of_Prediction_Of_Product_Sales.ipynb.-.Colab.html)
