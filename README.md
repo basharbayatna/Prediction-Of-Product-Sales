@@ -176,6 +176,26 @@ By combining insights from frequency plots, sales distribution plots, and this h
 
 ---
 
+### Business Questions Answered
+Through our analysis, we addressed the following key questions:
+
+1. **Which outlet types are most common?**  
+   Supermarket Type 1 is the most frequent outlet.
+
+2. **Which outlet types generate the highest sales?**  
+   Supermarket Type 3 achieves the highest average and median sales.
+
+3. **How does location impact sales?**  
+   Tier 3 locations show the potential for very high sales.
+
+4. **How do outlet type and location interact to affect sales?**  
+   The combination of **Supermarket Type 3 in Tier 3 locations** yields the highest sales.
+
+5. **Which outlets are consistently reliable?**  
+   Supermarket Type 1 shows stable sales across all tiers, making it a safe and reliable choice for expansion.
+
+6. **Where should a business focus to maximize profitability?**  
+   Prioritize opening Supermarket Type 3 outlets in Tier 3 locations, avoid Grocery Stores.
 
 
 ## 🚀 Next Steps
