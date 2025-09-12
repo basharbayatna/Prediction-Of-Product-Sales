@@ -65,7 +65,8 @@ Using **Matplotlib** and **Seaborn** Wrapper
 ## 🔍 Key Insights from Visuals
 
 ### 1️⃣ Product Sales Distribution (Target)
-<img width="571" height="455" alt="Product Sales Distribution" src="https://github.com/user-attachments/assets/3d7c04ac-90ce-4b1f-bf6c-3dc9e9398b4d" />
+[plot.html](https://github.com/user-attachments/files/22300171/plot.html)
+
 
 The distribution of product sales is positively skewed. The majority of products record low to moderate sales (mostly under 2000 units), while a smaller number reach much higher sales values.  
 
