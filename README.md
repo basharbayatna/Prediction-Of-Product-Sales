@@ -63,15 +63,32 @@ Using **Matplotlib** and **Seaborn** Wrapper
 ---
 
 ## 🔍 Key Insights from Visuals
+## 1️⃣ Invistegating the Outlet Location Type 
 
-### 1️⃣ Invistegating the Outlet Location Type 
-
+### Plot 1: Outlet_Location_Type Count
 <img width="590" height="390" alt="image" src="https://github.com/user-attachments/assets/43e60c2b-e7a2-4c96-b4b8-1ec8957d0528" />
 
+- Shows the number of outlets in each tier.  
+- **Tier 3:** ~3,400 outlets (highest)  
+- **Tier 2:** ~2,800 outlets  
+- **Tier 1:** ~2,400 outlets (lowest)  
 
+> **Insight:** Tier 3 outlets are the most common, but this plot doesn’t indicate sales performance.
+
+---
+
+### Plot 2: Outlet_Location_Type vs. Item_Outlet_Sales
 
 <img width="589" height="390" alt="image" src="https://github.com/user-attachments/assets/4fec295c-21b2-4925-9cdb-2d09e9e194fc" />
 
+- Combines a strip plot (individual sales) with a box plot (distribution summary).  
+- **Tier 3:** Highest median sales, wide spread, some outliers > $12,000  
+- **Tier 1 & Tier 2:** Lower median sales, fewer extreme outliers  
+
+> **Insight:** While Tier 3 outlets are the most frequent, they also tend to generate the **highest sales**, showing a strong link between outlet type and performance.
+---
+
+### 1️⃣ Invistegating the Outlet Location Type 
 
 
 
@@ -80,9 +97,7 @@ Using **Matplotlib** and **Seaborn** Wrapper
 
 
 
-
-
-The distribution of product sales is positively skewed. The majority of products record low to moderate sales (mostly under 2000 units), while a smaller number reach much higher sales values.  
+ 
 
 
 ---
