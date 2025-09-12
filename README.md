@@ -105,6 +105,8 @@ Using **Matplotlib** and **Seaborn** Wrapper
 ## Plot 1: Outlet_Type Count
 
 <img width="590" height="390" alt="image" src="https://github.com/user-attachments/assets/8fc51bcf-e67a-4c99-8a08-20c97ef8b818" />
+
+
 ## Outlet Analysis
 
 This bar chart shows the frequency of each outlet type in the dataset:
