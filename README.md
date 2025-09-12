@@ -4,6 +4,8 @@
 
 This project focuses on predicting the sales of food items across various stores.  
 The goal is to help retailers understand the properties of products and outlets that play a crucial role in increasing sales.  
+Additionally, this analysis aims to answer some **critical business questions** to guide strategic decisions, such as which outlet types and locations maximize sales, which outlets are most reliable, and where to focus expansion efforts for optimal profitability.
+
 
 ---
 
