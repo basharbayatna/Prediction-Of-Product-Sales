@@ -115,6 +115,7 @@ Using **Matplotlib** and **Seaborn** to explore the dataset:
 
 ### 3️⃣ Investigating the Relationship between Outlet Type, Location & Sales
 <img width="762" height="518" alt="image" src="https://github.com/user-attachments/assets/c3363036-2b67-479a-a399-d196a759e9e4" />  
+
 [View interactive heatmap](https://github.com/user-attachments/files/22300171/plot.html)
 
 #### Heatmap Analysis: Average Product Sales by Outlet Type and Location
