@@ -136,8 +136,41 @@ This plot combines a strip plot with a box plot overlay to show the relationship
 <img width="762" height="518" alt="image" src="https://github.com/user-attachments/assets/c3363036-2b67-479a-a399-d196a759e9e4" />
 
  [plot.html](https://github.com/user-attachments/files/22300171/plot.html)
+## Heatmap Analysis: Average Product Sales by Outlet Type and Location
 
-`Item_MRP` has the strongest positive correlation with `Item_Outlet_Sales`, indicating that price plays a significant role in sales prediction.  
+This heatmap combines insights from **Outlet_Type** and **Outlet_Location_Type** to provide a more integrated view of average product sales. It helps us understand how outlet type and location interact to influence sales performance.
+
+---
+
+### 1. The Impact of Outlet_Type
+
+- **Supermarket Type 3** in **Tier 3** locations has the highest average sales at **$3,694**, confirming our earlier observation from the sales distribution plot where Type 3 had the highest median sales. The heatmap specifies that this peak performance is tied to Tier 3 locations.
+- **Supermarket Type 1** shows consistently high average sales across all tiers, ranging from **$2,299 to $2,324**, reinforcing its role as a reliable high-volume performer.
+- **Supermarket Type 2** appears only in Tier 3 locations, with average sales of **$1,995**.
+- **Grocery Stores** have extremely low average sales in both Tier 1 (**$340**) and Tier 3 (**$339**), confirming they are the lowest-performing outlet type.
+
+---
+
+### 2. The Impact of Outlet_Location_Type
+
+- **Tier 3 locations** show a wide range of performance:
+  - Grocery Stores perform poorly.
+  - Supermarket Type 2 and Type 3 achieve very high sales, with Type 3 peaking.  
+  **Insight:** Tier 3 locations have high potential, but performance depends heavily on outlet type.
+- **Tier 1 locations** have a mix of high-performing Supermarket Type 1 outlets and low-performing Grocery Stores. No Supermarket Type 2 or 3 outlets are present, so the range of performance is narrower.
+- **Tier 2 locations** only show Supermarket Type 1 outlets, with average sales of **$2,324**, consistent with other tiers. The absence of other outlet types may reflect sample size or strategic business placement.
+
+---
+
+### 3. Conclusion and Strategic Insights
+
+- Tier 3 locations drive the highest sales, thanks to **Supermarket Type 2 and Type 3** outlets.
+- **Supermarket Type 1** is the most common outlet type and consistently performs well across all locations.
+- **Grocery Stores** perform poorly in all locations, indicating low profitability regardless of placement.
+
+**Strategic Recommendation:** To maximize sales, businesses should focus on opening **Supermarket Type 3 outlets in Tier 3 locations**. Conversely, opening a Grocery Store in any tier is unlikely to be profitable.
+
+By combining insights from frequency plots, sales distribution plots, and this heatmap, we get a comprehensive understanding of which outlet types and locations are most critical for high sales performance.
 
 ---
 
