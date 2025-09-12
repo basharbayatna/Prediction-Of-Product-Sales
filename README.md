@@ -67,6 +67,7 @@ Using **Matplotlib** and **Seaborn** Wrapper
 ### 1️⃣ Product Sales Distribution (Target)
 [plot.html](https://github.com/user-attachments/files/22300171/plot.html)
 
+[Copy_of_Prediction_Of_Product_Sales.ipynb - Colab.html](https://github.com/user-attachments/files/22300244/Copy_of_Prediction_Of_Product_Sales.ipynb.-.Colab.html)
 
 The distribution of product sales is positively skewed. The majority of products record low to moderate sales (mostly under 2000 units), while a smaller number reach much higher sales values.  
 
