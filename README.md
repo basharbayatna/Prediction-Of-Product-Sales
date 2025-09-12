@@ -197,7 +197,7 @@ Through our analysis, we addressed the following key questions:
 6. **Where should a business focus to maximize profitability?**  
    Prioritize opening Supermarket Type 3 outlets in Tier 3 locations, avoid Grocery Stores.
 
-
+---
 ## 🚀 Next Steps
 - Feature engineering to improve data quality.  
 - Training predictive models to estimate sales.  
