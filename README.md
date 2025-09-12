@@ -110,7 +110,7 @@ This bar chart shows the frequency of each outlet type in the dataset:
 - **Supermarket Type 1** is by far the most common, with a count of over 5,000.
 - **Supermarket Type 2**, **Grocery Store**, and **Supermarket Type 3** are much less common, each with counts around 1,000.
 
-**Insight:** The dataset is heavily skewed towards Supermarket Type 1 outlets.
+> **Insight:** The dataset is heavily skewed towards Supermarket Type 1 outlets.
 
 ## Plot 2: Outlet_Type vs. Item_Outlet_Sales
 
@@ -123,9 +123,8 @@ This plot combines a strip plot with a box plot overlay to show the relationship
 - **Supermarket Type 1** has the second-highest median sales and a wide distribution, performing better than Supermarket Type 2 and Grocery Stores, but not as well as Supermarket Type 3.
 - **Supermarket Type 2** has a similar sales range to Supermarket Type 1 and Type 3, but its median sales are lower.
 
-**Summary:** Although Supermarket Type 1 is the most frequent outlet, **Supermarket Type 3** achieves the highest sales on average, while **Grocery Stores** perform the lowest.
+> **Insight:** Although Supermarket Type 1 is the most frequent outlet, **Supermarket Type 3** achieves the highest sales on average, while **Grocery Stores** perform the lowest.
 
-<img width="589" height="390" alt="image" src="https://github.com/user-attachments/assets/67a5c883-c62f-49a8-9289-bbd35d1558cf" />
 
 
 
