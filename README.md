@@ -79,17 +79,15 @@ Using **Matplotlib** and **Seaborn** Wrapper
 
 ### Plot 2: Outlet_Location_Type vs. Item_Outlet_Sales
 
+
 <img width="589" height="390" alt="image" src="https://github.com/user-attachments/assets/4fec295c-21b2-4925-9cdb-2d09e9e194fc" />
+
 
 - Combines a strip plot (individual sales) with a box plot (distribution summary).  
 - **Tier 3:** Highest median sales, wide spread, some outliers > $12,000  
 - **Tier 1 & Tier 2:** Lower median sales, fewer extreme outliers  
 
 > **Insight:** While Tier 3 outlets are the most frequent, they also tend to generate the **highest sales**, showing a strong link between outlet type and performance.
----
-
-### 1️⃣ Invistegating the Outlet Location Type 
-
 
 
 
@@ -103,8 +101,10 @@ Using **Matplotlib** and **Seaborn** Wrapper
 ---
 ### 2️⃣ Invistegating the Outlet Type 
 ## Plot 1: Outlet_Type Count
+
 <img width="590" height="390" alt="image" src="https://github.com/user-attachments/assets/8fc51bcf-e67a-4c99-8a08-20c97ef8b818" />
 ## Outlet Analysis
+
 This bar chart shows the frequency of each outlet type in the dataset:
 
 - **Supermarket Type 1** is by far the most common, with a count of over 5,000.
@@ -113,6 +113,7 @@ This bar chart shows the frequency of each outlet type in the dataset:
 **Insight:** The dataset is heavily skewed towards Supermarket Type 1 outlets.
 
 ## Plot 2: Outlet_Type vs. Item_Outlet_Sales
+
 <img width="589" height="390" alt="image" src="https://github.com/user-attachments/assets/67a5c883-c62f-49a8-9289-bbd35d1558cf" />
 
 This plot combines a strip plot with a box plot overlay to show the relationship between outlet type and sales:
