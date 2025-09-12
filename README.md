@@ -66,6 +66,16 @@ Using **Matplotlib** and **Seaborn** Wrapper
 
 ### 1️⃣ Product Sales Distribution (Target)
 <img width="762" height="524" alt="image" src="https://github.com/user-attachments/assets/217d97bf-775a-4492-89d3-b80f8d87defc" />
+<img width="589" height="390" alt="image" src="https://github.com/user-attachments/assets/7a2ec512-ebf3-499c-9108-c30d6fdcdea0" />
+<img width="630" height="470" alt="image" src="https://github.com/user-attachments/assets/3f815135-766f-41a5-b41f-17a86e33b156" />
+<img width="630" height="470" alt="image" src="https://github.com/user-attachments/assets/5fdd9cd5-4d05-4366-8590-44606257adc1" />
+
+<img width="590" height="390" alt="image" src="https://github.com/user-attachments/assets/b88d0ee9-f014-49cd-b552-765629658a0d" />
+<img width="589" height="390" alt="image" src="https://github.com/user-attachments/assets/faef6296-fb1a-49b7-ad69-5ecf53137d5e" />
+<img width="590" height="390" alt="image" src="https://github.com/user-attachments/assets/9ec523da-d91a-4502-9310-12ed9c0522b1" />
+<img width="589" height="390" alt="image" src="https://github.com/user-attachments/assets/c2145d89-3541-4798-b168-57ef816f1d64" />
+
+
 
 
 [plot.html](https://github.com/user-attachments/files/22300171/plot.html)
