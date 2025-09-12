@@ -80,7 +80,6 @@ Using **Matplotlib** and **Seaborn** Wrapper
 
 
 
-[plot.html](https://github.com/user-attachments/files/22300171/plot.html)
 
 
 The distribution of product sales is positively skewed. The majority of products record low to moderate sales (mostly under 2000 units), while a smaller number reach much higher sales values.  
@@ -100,7 +99,10 @@ The distribution of product sales is positively skewed. The majority of products
 
 ### 3️⃣ Invistegating the Relation between the Location & Type Vs. Item Outlet sales  
 
- 
+<img width="762" height="518" alt="image" src="https://github.com/user-attachments/assets/c3363036-2b67-479a-a399-d196a759e9e4" />
+
+ [plot.html](https://github.com/user-attachments/files/22300171/plot.html)
+
 `Item_MRP` has the strongest positive correlation with `Item_Outlet_Sales`, indicating that price plays a significant role in sales prediction.  
 
 ---
