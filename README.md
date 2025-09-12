@@ -102,10 +102,29 @@ Using **Matplotlib** and **Seaborn** Wrapper
 
 ---
 ### 2️⃣ Invistegating the Outlet Type 
+## Plot 1: Outlet_Type Count
 <img width="590" height="390" alt="image" src="https://github.com/user-attachments/assets/8fc51bcf-e67a-4c99-8a08-20c97ef8b818" />
+## Outlet Analysis
+This bar chart shows the frequency of each outlet type in the dataset:
 
+- **Supermarket Type 1** is by far the most common, with a count of over 5,000.
+- **Supermarket Type 2**, **Grocery Store**, and **Supermarket Type 3** are much less common, each with counts around 1,000.
+
+**Insight:** The dataset is heavily skewed towards Supermarket Type 1 outlets.
+
+## Plot 2: Outlet_Type vs. Item_Outlet_Sales
 <img width="589" height="390" alt="image" src="https://github.com/user-attachments/assets/67a5c883-c62f-49a8-9289-bbd35d1558cf" />
 
+This plot combines a strip plot with a box plot overlay to show the relationship between outlet type and sales:
+
+- **Grocery Stores** have the lowest sales, with a very tight distribution and median sales close to zero, indicating low performance.
+- **Supermarket Type 3** has the highest median sales and a wide range of sales, with some outlets achieving very high sales.
+- **Supermarket Type 1** has the second-highest median sales and a wide distribution, performing better than Supermarket Type 2 and Grocery Stores, but not as well as Supermarket Type 3.
+- **Supermarket Type 2** has a similar sales range to Supermarket Type 1 and Type 3, but its median sales are lower.
+
+**Summary:** Although Supermarket Type 1 is the most frequent outlet, **Supermarket Type 3** achieves the highest sales on average, while **Grocery Stores** perform the lowest.
+
+<img width="589" height="390" alt="image" src="https://github.com/user-attachments/assets/67a5c883-c62f-49a8-9289-bbd35d1558cf" />
 
 
 
