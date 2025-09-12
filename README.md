@@ -64,16 +64,26 @@ Using **Matplotlib** and **Seaborn** Wrapper
 
 ## 🔍 Key Insights from Visuals
 
-### 1️⃣ Product Sales Distribution (Target)
-<img width="762" height="524" alt="image" src="https://github.com/user-attachments/assets/217d97bf-775a-4492-89d3-b80f8d87defc" />
-<img width="589" height="390" alt="image" src="https://github.com/user-attachments/assets/7a2ec512-ebf3-499c-9108-c30d6fdcdea0" />
-<img width="630" height="470" alt="image" src="https://github.com/user-attachments/assets/3f815135-766f-41a5-b41f-17a86e33b156" />
-<img width="630" height="470" alt="image" src="https://github.com/user-attachments/assets/5fdd9cd5-4d05-4366-8590-44606257adc1" />
+### 1️⃣ Invistegating the Outlet Location Type 
 
-<img width="590" height="390" alt="image" src="https://github.com/user-attachments/assets/b88d0ee9-f014-49cd-b552-765629658a0d" />
-<img width="589" height="390" alt="image" src="https://github.com/user-attachments/assets/faef6296-fb1a-49b7-ad69-5ecf53137d5e" />
-<img width="590" height="390" alt="image" src="https://github.com/user-attachments/assets/9ec523da-d91a-4502-9310-12ed9c0522b1" />
-<img width="589" height="390" alt="image" src="https://github.com/user-attachments/assets/c2145d89-3541-4798-b168-57ef816f1d64" />
+
+
+<img width="589" height="390" alt="image" src="https://github.com/user-attachments/assets/4fec295c-21b2-4925-9cdb-2d09e9e194fc" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="762" height="524" alt="image" src="https://github.com/user-attachments/assets/217d97bf-775a-4492-
 
 
 
@@ -85,18 +95,19 @@ The distribution of product sales is positively skewed. The majority of products
 
 
 ---
-### 2️⃣ Distribution of `Item_Weight`
-<img width="580" height="455" alt="Distributions of Items Weight" src="https://github.com/user-attachments/assets/b957dfeb-37cf-45e8-bd00-0602163b0a97" />
+### 2️⃣ Invistegating the Outlet Type 
+<img width="590" height="390" alt="image" src="https://github.com/user-attachments/assets/8fc51bcf-e67a-4c99-8a08-20c97ef8b818" />
+
+<img width="589" height="390" alt="image" src="https://github.com/user-attachments/assets/67a5c883-c62f-49a8-9289-bbd35d1558cf" />
 
 
-Most items weigh between **5–20 kg**, with a peak around **-1 kg** due to the missing values.  
+
 
 
 ---
 
-### 3️⃣ Correlation Heatmap
-<img width="1273" height="836" alt="Heatmap" src="https://github.com/user-attachments/assets/e7636b8f-f367-414c-829e-3f08700ddf7a" />
-
+### 3️⃣ Invistegating the Relation between the Location & Type Vs. Item Outlet sales  
+<img width="590" height="390" alt="image" src="https://github.com/user-attachments/assets/43e60c2b-e7a2-4c96-b4b8-1ec8957d0528" />
 
  
 `Item_MRP` has the strongest positive correlation with `Item_Outlet_Sales`, indicating that price plays a significant role in sales prediction.  
