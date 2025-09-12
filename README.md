@@ -66,6 +66,8 @@ Using **Matplotlib** and **Seaborn** Wrapper
 
 ### 1️⃣ Invistegating the Outlet Location Type 
 
+<img width="590" height="390" alt="image" src="https://github.com/user-attachments/assets/43e60c2b-e7a2-4c96-b4b8-1ec8957d0528" />
+
 
 
 <img width="589" height="390" alt="image" src="https://github.com/user-attachments/assets/4fec295c-21b2-4925-9cdb-2d09e9e194fc" />
@@ -74,16 +76,6 @@ Using **Matplotlib** and **Seaborn** Wrapper
 
 
 
-
-
-
-
-
-
-
-
-
-<img width="762" height="524" alt="image" src="https://github.com/user-attachments/assets/217d97bf-775a-4492-
 
 
 
@@ -107,7 +99,6 @@ The distribution of product sales is positively skewed. The majority of products
 ---
 
 ### 3️⃣ Invistegating the Relation between the Location & Type Vs. Item Outlet sales  
-<img width="590" height="390" alt="image" src="https://github.com/user-attachments/assets/43e60c2b-e7a2-4c96-b4b8-1ec8957d0528" />
 
  
 `Item_MRP` has the strongest positive correlation with `Item_Outlet_Sales`, indicating that price plays a significant role in sales prediction.  
