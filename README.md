@@ -1,36 +1,37 @@
 ![logan-voss-WRmoJBqzXNA-unsplash](https://github.com/user-attachments/assets/1ca668a3-0af5-405f-ac8a-a79af6434c11)
-# Prediction-Of-Product-Sales
-#  Sales Prediction for Food Items
+
+# Prediction of Product Sales 🍎🛒
+## Sales Prediction for Food Items
 
 This project focuses on predicting the sales of food items across various stores.  
 The goal is to help retailers understand the properties of products and outlets that play a crucial role in increasing sales.  
 Additionally, this analysis aims to answer some **critical business questions** to guide strategic decisions, such as which outlet types and locations maximize sales, which outlets are most reliable, and where to focus expansion efforts for optimal profitability.
 
-
 ---
 
 ## 📊 Project Overview
 - **Objective**: Build a predictive model for `Item_Outlet_Sales` based on product and store characteristics.  
-- **Data Source**: https://drive.google.com/file/d/1syH81TVrbBsdymLT_jl2JIf6IjPXtSQw/view  
+- **Data Source**: [Download Dataset](https://drive.google.com/file/d/1syH81TVrbBsdymLT_jl2JIf6IjPXtSQw/view)  
 - **Key Tasks**:
-  1. Data loading and cleaning.
-  2. Exploratory Data Analysis (EDA).
-  3. Feature engineering and modeling.
+  1. Data loading and cleaning
+  2. Exploratory Data Analysis (EDA)
+  3. Feature engineering and modeling
 
 ---
 
 ## 📂 Dataset Information
-The dataset contains information about products and outlets, with the target variable being **Item_Outlet_Sales**.
-for this Dataset there is 8523 Rows and 12 Columns
-## Data Dictionary
+The dataset contains information about products and outlets, with the target variable being **Item_Outlet_Sales**.  
+It contains **8,523 rows** and **12 columns**.
 
-| Variable Name              | Description |
-|-----------------------------|-------------|
+### Data Dictionary
+
+| Variable Name               | Description |
+|------------------------------|-------------|
 | `Item_Identifier`           | Product ID |
 | `Item_Weight`               | Weight of product |
-| `Item_Fat_Content`          | Whether the product is low-fat or regular |
+| `Item_Fat_Content`          | Low-fat or regular |
 | `Item_Visibility`           | % of display area allocated to the product |
-| `Item_Type`                 | Category of the product |
+| `Item_Type`                 | Product category |
 | `Item_MRP`                  | Maximum Retail Price (list price) |
 | `Outlet_Identifier`         | Store ID |
 | `Outlet_Establishment_Year` | Year the store was established |
@@ -43,34 +44,33 @@ for this Dataset there is 8523 Rows and 12 Columns
 
 ## 🛠️ Part 2: Data Cleaning
 Using **Pandas** to prepare the dataset for analysis:
-1. Checked the number of rows and columns.  
-2. Inspected datatypes of each variable.  
-3. Removed duplicate.  
-4. Identified missing values and replaced them with placeholder values.  
-5. Ensured there are no missing values after cleaning.  
-6. Standardized categorical entries (e.g., fixing inconsistencies in `Item_Fat_Content`).  
-7. Generated summary statistics for numerical features (min, max, mean, etc.).  
+1. Checked the number of rows and columns  
+2. Inspected datatypes of each variable  
+3. Removed duplicates  
+4. Identified missing values and replaced them with placeholder values  
+5. Ensured there are no missing values after cleaning  
+6. Standardized categorical entries (e.g., fixing inconsistencies in `Item_Fat_Content`)  
+7. Generated summary statistics for numerical features (min, max, mean, etc.)  
 
 ---
 
 ## 📈 Part 3: Exploratory Data Analysis (EDA)
-Created different plots to explore the dataset: 
-Using **Matplotlib** and **Seaborn** Wrapper 
+Using **Matplotlib** and **Seaborn** to explore the dataset:
 
-- **Histograms** → to view distributions of numerical features.  
-- **Boxplots** → to visualize statistical summaries and outliers.  
-- **Countplots** → to check frequency distributions of categorical features.  
-- **Heatmap** → to see correlations between numerical variables.  
+- **Histograms** → visualize distributions of numerical features  
+- **Boxplots** → show statistical summaries and detect outliers  
+- **Countplots** → check frequency distributions of categorical features  
+- **Heatmap** → examine correlations between numerical variables  
 
 ---
 
 ## 🔍 Key Insights from Visuals
-## 1️⃣ Invistegating the Outlet Location Type 
 
-### Plot 1: Outlet_Location_Type Count
+### 1️⃣ Investigating the Outlet Location Type
+
+#### Plot 1: Outlet_Location_Type Count
 <img width="590" height="390" alt="image" src="https://github.com/user-attachments/assets/43e60c2b-e7a2-4c96-b4b8-1ec8957d0528" />
 
-- Shows the number of outlets in each tier.  
 - **Tier 3:** ~3,400 outlets (highest)  
 - **Tier 2:** ~2,800 outlets  
 - **Tier 1:** ~2,400 outlets (lowest)  
@@ -79,105 +79,65 @@ Using **Matplotlib** and **Seaborn** Wrapper
 
 ---
 
-### Plot 2: Outlet_Location_Type vs. Item_Outlet_Sales
-
-
+#### Plot 2: Outlet_Location_Type vs. Item_Outlet_Sales
 <img width="589" height="390" alt="image" src="https://github.com/user-attachments/assets/4fec295c-21b2-4925-9cdb-2d09e9e194fc" />
 
-
-- Combines a strip plot (individual sales) with a box plot (distribution summary).  
 - **Tier 3:** Highest median sales, wide spread, some outliers > $12,000  
 - **Tier 1 & Tier 2:** Lower median sales, fewer extreme outliers  
 
-> **Insight:** While Tier 3 outlets are the most frequent, they also tend to generate the **highest sales**, showing a strong link between outlet type and performance.
-
-
-
-
-
-
-
- 
-
+> **Insight:** Tier 3 outlets not only are most frequent but also tend to generate the **highest sales**, showing a strong link between location tier and performance.
 
 ---
-### 2️⃣ Invistegating the Outlet Type 
-## Plot 1: Outlet Type Count
 
+### 2️⃣ Investigating the Outlet Type
+
+#### Plot 1: Outlet Type Count
 <img width="590" height="390" alt="image" src="https://github.com/user-attachments/assets/8fc51bcf-e67a-4c99-8a08-20c97ef8b818" />
 
-
-This bar chart shows the frequency of each outlet type in the dataset:
-
-- **Supermarket Type 1** is by far the most common, with a count of over 5,000.
-- **Supermarket Type 2**, **Grocery Store**, and **Supermarket Type 3** are much less common, each with counts around 1,000.
+- **Supermarket Type 1:** most common, >5,000 outlets  
+- **Supermarket Type 2, Grocery Store, Supermarket Type 3:** ~1,000 each  
 
 > **Insight:** The dataset is heavily skewed towards Supermarket Type 1 outlets.
 
-## Plot 2: Outlet Type vs. Item Outlet Sales
+---
 
+#### Plot 2: Outlet Type vs. Item_Outlet_Sales
 <img width="589" height="390" alt="image" src="https://github.com/user-attachments/assets/67a5c883-c62f-49a8-9289-bbd35d1558cf" />
 
-This plot combines a strip plot with a box plot overlay to show the relationship between outlet type and sales:
+- **Grocery Stores:** lowest sales, tight distribution, median near $0  
+- **Supermarket Type 3:** highest median sales, wide range  
+- **Supermarket Type 1:** second-highest median sales, wide range  
+- **Supermarket Type 2:** similar range to Type 1 & 3 but lower median  
 
-- **Grocery Stores** have the lowest sales, with a very tight distribution and median sales close to zero, indicating low performance.
-- **Supermarket Type 3** has the highest median sales and a wide range of sales, with some outlets achieving very high sales.
-- **Supermarket Type 1** has the second-highest median sales and a wide distribution, performing better than Supermarket Type 2 and Grocery Stores, but not as well as Supermarket Type 3.
-- **Supermarket Type 2** has a similar sales range to Supermarket Type 1 and Type 3, but its median sales are lower.
-
-> **Insight:** Although Supermarket Type 1 is the most frequent outlet, **Supermarket Type 3** achieves the highest sales on average, while **Grocery Stores** perform the lowest.
-
-
-
-
+> **Insight:** While Supermarket Type 1 is the most frequent, **Supermarket Type 3** achieves the highest average sales, and Grocery Stores perform the lowest.
 
 ---
 
-### 3️⃣ Invistegating the Relation between the Location & Type Vs. Item Outlet sales  
+### 3️⃣ Investigating the Relationship between Outlet Type, Location & Sales
+<img width="762" height="518" alt="image" src="https://github.com/user-attachments/assets/c3363036-2b67-479a-a399-d196a759e9e4" />  
+[View interactive heatmap](https://github.com/user-attachments/files/22300171/plot.html)
 
-<img width="762" height="518" alt="image" src="https://github.com/user-attachments/assets/c3363036-2b67-479a-a399-d196a759e9e4" />
+#### Heatmap Analysis: Average Product Sales by Outlet Type and Location
 
- [plot.html](https://github.com/user-attachments/files/22300171/plot.html)
-## Heatmap Analysis: Average Product Sales by Outlet Type and Location
+**Key Observations:**
 
-This heatmap combines insights from **Outlet_Type** and **Outlet_Location_Type** to provide a more integrated view of average product sales. It helps us understand how outlet type and location interact to influence sales performance.
+- **Supermarket Type 3** in **Tier 3** locations: highest average sales **$3,694**  
+- **Supermarket Type 1:** consistent across all tiers **$2,299–$2,324**  
+- **Supermarket Type 2:** appears only in Tier 3, avg. sales **$1,995**  
+- **Grocery Stores:** extremely low sales in Tier 1 (**$340**) and Tier 3 (**$339**)  
 
----
+**Location Insights:**
 
-### 1. The Impact of Outlet_Type
+- Tier 3: high potential; performance depends on outlet type  
+- Tier 1: mix of high-performing Type 1 and low-performing Grocery Stores  
+- Tier 2: only Type 1 outlets present; avg. sales **$2,324**  
 
-- **Supermarket Type 3** in **Tier 3** locations has the highest average sales at **$3,694**, confirming our earlier observation from the sales distribution plot where Type 3 had the highest median sales. The heatmap specifies that this peak performance is tied to Tier 3 locations.
-- **Supermarket Type 1** shows consistently high average sales across all tiers, ranging from **$2,299 to $2,324**, reinforcing its role as a reliable high-volume performer.
-- **Supermarket Type 2** appears only in Tier 3 locations, with average sales of **$1,995**.
-- **Grocery Stores** have extremely low average sales in both Tier 1 (**$340**) and Tier 3 (**$339**), confirming they are the lowest-performing outlet type.
-
----
-
-### 2. The Impact of Outlet_Location_Type
-
-- **Tier 3 locations** show a wide range of performance:
-  - Grocery Stores perform poorly.
-  - Supermarket Type 2 and Type 3 achieve very high sales, with Type 3 peaking.  
-  **Insight:** Tier 3 locations have high potential, but performance depends heavily on outlet type.
-- **Tier 1 locations** have a mix of high-performing Supermarket Type 1 outlets and low-performing Grocery Stores. No Supermarket Type 2 or 3 outlets are present, so the range of performance is narrower.
-- **Tier 2 locations** only show Supermarket Type 1 outlets, with average sales of **$2,324**, consistent with other tiers. The absence of other outlet types may reflect sample size or strategic business placement.
+**Strategic Recommendation:**  
+Focus on **Supermarket Type 3 in Tier 3 locations** for maximum sales. Avoid Grocery Stores in any tier.  
 
 ---
 
-### 3. Conclusion and Strategic Insights
-
-- Tier 3 locations drive the highest sales, thanks to **Supermarket Type 2 and Type 3** outlets.
-- **Supermarket Type 1** is the most common outlet type and consistently performs well across all locations.
-- **Grocery Stores** perform poorly in all locations, indicating low profitability regardless of placement.
-
-**Strategic Recommendation:** To maximize sales, businesses should focus on opening **Supermarket Type 3 outlets in Tier 3 locations**. Conversely, opening a Grocery Store in any tier is unlikely to be profitable.
-
-By combining insights from frequency plots, sales distribution plots, and this heatmap, we get a comprehensive understanding of which outlet types and locations are most critical for high sales performance.
-
----
-
-### Business Questions Answered
-Through our analysis, we addressed the following key questions:
+### 📌 Business Questions Answered
 
 1. **Which outlet types are most common?**  
    Supermarket Type 1 is the most frequent outlet.
@@ -189,27 +149,24 @@ Through our analysis, we addressed the following key questions:
    Tier 3 locations show the potential for very high sales.
 
 4. **How do outlet type and location interact to affect sales?**  
-   The combination of **Supermarket Type 3 in Tier 3 locations** yields the highest sales.
+   The combination of **Supermarket Type 3 in Tier 3** yields the highest sales.
 
 5. **Which outlets are consistently reliable?**  
-   Supermarket Type 1 shows stable sales across all tiers, making it a safe and reliable choice for expansion.
+   Supermarket Type 1 shows stable sales across all tiers.
 
 6. **Where should a business focus to maximize profitability?**  
-   Prioritize opening Supermarket Type 3 outlets in Tier 3 locations, avoid Grocery Stores.
+   Prioritize **Supermarket Type 3 in Tier 3**; avoid Grocery Stores.
 
 ---
+
 ## 🚀 Next Steps
-- Feature engineering to improve data quality.  
-- Training predictive models to estimate sales.  
-- Evaluating performance with regression metrics.  
-
----
-##  Information 
- For any Questions or Recommendations:
-  - Bashar Bayatna Mechatronics Engineer|Junior Data Scientist
-  - Basharbayatna11@gmail.com
+- Feature engineering to improve predictive power  
+- Training regression models to estimate sales  
+- Evaluating model performance using metrics like RMSE and R²  
 
 ---
 
-
-
+## ℹ️ Contact Information
+For any questions or recommendations:  
+- **Bashar Bayatna**, Mechatronics Engineer | Junior Data Scientist  
+- Email: [Basharbayatna11@gmail.com](mailto:Basharbayatna11@gmail.com)
