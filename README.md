@@ -102,12 +102,10 @@ Using **Matplotlib** and **Seaborn** Wrapper
 
 ---
 ### 2️⃣ Invistegating the Outlet Type 
-## Plot 1: Outlet_Type Count
+## Plot 1: Outlet Type Count
 
 <img width="590" height="390" alt="image" src="https://github.com/user-attachments/assets/8fc51bcf-e67a-4c99-8a08-20c97ef8b818" />
 
-
-## Outlet Analysis
 
 This bar chart shows the frequency of each outlet type in the dataset:
 
@@ -116,7 +114,7 @@ This bar chart shows the frequency of each outlet type in the dataset:
 
 > **Insight:** The dataset is heavily skewed towards Supermarket Type 1 outlets.
 
-## Plot 2: Outlet_Type vs. Item_Outlet_Sales
+## Plot 2: Outlet Type vs. Item Outlet Sales
 
 <img width="589" height="390" alt="image" src="https://github.com/user-attachments/assets/67a5c883-c62f-49a8-9289-bbd35d1558cf" />
 
