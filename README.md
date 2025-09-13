@@ -63,6 +63,19 @@ Using **Matplotlib** and **Seaborn** to explore the dataset:
 - **Heatmap** → examine correlations between numerical variables  
 
 ---
+### 📌 Business Questions To Answer  
+
+1. **Which outlet types are most common?**  
+
+2. **Which outlet types generate the highest sales?**  
+
+3. **How does location impact sales?**  
+
+4. **How do outlet type and location interact to affect sales?**  
+
+5. **Which outlets are consistently reliable?**  
+
+6. **Where should a business focus to maximize profitability?**  
 
 ## 🔍 Key Insights from Visuals
 
