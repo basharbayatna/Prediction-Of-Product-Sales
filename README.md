@@ -146,8 +146,6 @@ Using **Matplotlib** and **Seaborn** to explore the dataset:
 - Tier 1: mix of high-performing Type 1 and low-performing Grocery Stores  
 - Tier 2: only Type 1 outlets present; avg. sales **$2,324**  
 
-**Strategic Recommendation:**  
-Focus on **Supermarket Type 3 in Tier 3 locations** for maximum sales. Avoid Grocery Stores in any tier. and focus on Supermarket Type 1 for stable sales across all tiers.
 
 ---
 
@@ -172,7 +170,9 @@ Focus on **Supermarket Type 3 in Tier 3 locations** for maximum sales. Avoid Gro
    Prioritize **Supermarket Type 3 in Tier 3**; avoid Grocery Stores.
 
 ---
-
+**Strategic Recommendation:**  
+Focus on **Supermarket Type 3 in Tier 3 locations** for maximum sales. Avoid Grocery Stores in any tier. and focus on Supermarket Type 1 for stable sales across all tiers.
+---
 ## 🚀 Next Steps
 - Feature engineering to improve predictive power  
 - Training regression models to estimate sales  
