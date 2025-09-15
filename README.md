@@ -147,7 +147,7 @@ Using **Matplotlib** and **Seaborn** to explore the dataset:
 - Tier 2: only Type 1 outlets present; avg. sales **$2,324**  
 
 **Strategic Recommendation:**  
-Focus on **Supermarket Type 3 in Tier 3 locations** for maximum sales. Avoid Grocery Stores in any tier.  
+Focus on **Supermarket Type 3 in Tier 3 locations** for maximum sales. Avoid Grocery Stores in any tier. and focus on Supermarket Type 1 for stable sales across all tiers.
 
 ---
 
