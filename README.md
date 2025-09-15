@@ -170,7 +170,7 @@ Using **Matplotlib** and **Seaborn** to explore the dataset:
    Prioritize **Supermarket Type 3 in Tier 3**; avoid Grocery Stores.
 
 ---
-**Strategic Recommendation:**  
+## 💡 Strategic Recommendation:
 
 Focus on **Supermarket Type 3** in **Tier 3 locations** for maximum sales. Avoid Grocery Stores in any tier. and focus on Supermarket Type 1 for stable sales across all tiers.
 
