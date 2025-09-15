@@ -171,7 +171,9 @@ Using **Matplotlib** and **Seaborn** to explore the dataset:
 
 ---
 **Strategic Recommendation:**  
-Focus on **Supermarket Type 3 in Tier 3 locations** for maximum sales. Avoid Grocery Stores in any tier. and focus on Supermarket Type 1 for stable sales across all tiers.
+
+Focus on **Supermarket Type 3** in **Tier 3 locations** for maximum sales. Avoid Grocery Stores in any tier. and focus on Supermarket Type 1 for stable sales across all tiers.
+
 ---
 ## 🚀 Next Steps
 - Feature engineering to improve predictive power  
