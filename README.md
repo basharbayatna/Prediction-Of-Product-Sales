@@ -3,7 +3,7 @@
 # Prediction of Product Sales 🍎🛒
 ## Sales Prediction for Food Items
 
-This project focuses on predicting the sales of food items across various stores. The goal is to help retailers understand which product and store characteristics drive sales. Additionally, the analysis aims to answer **critical business questions** to guide strategic decisions, such as which outlet types and locations maximize sales, which outlets are most reliable, and where to focus expansion or marketing efforts for optimal profitability.
+This project focuses on predicting the sales of multiple items across various stores. The goal is to help retailers understand which product and store characteristics drive sales. Additionally, the analysis aims to answer **critical business questions** to guide strategic decisions, such as which outlet types and locations maximize sales, which outlets are most reliable, and where to focus expansion or marketing efforts for optimal profitability.
 
 ---
 
