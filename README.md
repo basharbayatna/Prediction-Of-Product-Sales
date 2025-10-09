@@ -80,22 +80,21 @@ Using **Matplotlib** and **Seaborn**:
 <img width="589" height="390" alt="image" src="https://github.com/user-attachments/assets/4fec295c-21b2-4925-9cdb-2d09e9e194fc" />
 
 
-- **Tier 3** outlets are the most common and show the **highest median sales**  
-- **Tier 1 & Tier 2** have lower median sales and fewer extreme outliers  
+- The Outlet_Type is the most significant factor influencing sales performance. Both Supermarket Type3 and Supermarket Type1 demonstrate the highest average sales and substantial potential for peak sales. Conversely, Grocery Stores consistently show a drastically lower average and maximum sales, indicating they are the weakest-performing outlet category.
+
 
 ### Outlet Type
 
 <img width="589" height="390" alt="image" src="https://github.com/user-attachments/assets/628d0087-b65a-43ac-a5bf-3cdb09bf6ceb" />
 
-- The Outlet_Type is the most significant factor influencing sales performance. Both Supermarket Type3 and Supermarket Type1 demonstrate the highest average sales and substantial potential for peak sales. Conversely, Grocery Stores consistently show a drastically lower average and maximum sales, indicating they are the weakest-performing outlet category.
 
-
+- The Outlet_Location_Type has little effect on an item's typical sales value, as the average sales are remarkably consistent across Tier 1, Tier 2, and Tier 3 locations. However, Tier 3 locations are associated with the highest individual sales points, suggesting that while they don't boost average performance, they do host the most successful, high-volume transactions.
  
 
 ### Outlet Type & Location Interaction
 <img width="762" height="518" alt="image" src="https://github.com/user-attachments/assets/c3363036-2b67-479a-a399-d196a759e9e4" />
 
-- The Outlet_Location_Type has little effect on an item's typical sales value, as the average sales are remarkably consistent across Tier 1, Tier 2, and Tier 3 locations. However, Tier 3 locations are associated with the highest individual sales points, suggesting that while they don't boost average performance, they do host the most successful, high-volume transactions.
+
 
 ---
 
