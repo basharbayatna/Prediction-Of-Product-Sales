@@ -181,6 +181,48 @@ Focus on **Supermarket Type 3** in **Tier 3 locations** for maximum sales. Avoid
 - Evaluating model performance using metrics like RMSE and R²  
 
 ---
+## 🧠 Machine Learning Model Development
+
+### 1. Preprocessing the Data
+Before training the models, the dataset was prepared for machine learning through several preprocessing steps:
+- **Feature Selection:** Independent variables (features) were selected from the dataset, while the target variable was the `Item_Outlet_Sales`.
+- **Handling Missing Values:** Missing data was treated appropriately to ensure model consistency and accuracy.
+- **Encoding Categorical Variables:** Categorical features were encoded into numerical form to make them suitable for machine learning algorithms.
+- **Feature Scaling:** Continuous features were scaled to standardize the data and improve model performance.
+- **Train-Test Split:** The dataset was divided into training and testing subsets to evaluate model generalization.
+
+### 2. Model 1 – Linear Regression
+The first model implemented was **Linear Regression**, a simple baseline model that assumes a linear relationship between the input features and the target variable.
+- It provided a reference point for evaluating more complex models.
+- While easy to interpret, its performance was limited due to the presence of nonlinear patterns and categorical interactions within the data.
+
+### 3. Model 2 – Random Forest Regressor
+Next, a **Random Forest Regressor** was trained to capture nonlinear relationships and feature interactions.
+- Random Forest, being an ensemble method of decision trees, improved prediction accuracy compared to Linear Regression.
+- It reduced overfitting through averaging multiple trees and was more robust to noise in the dataset.
+- Feature importance values were extracted to identify which features most influenced the sales prediction.
+
+### 4. Model 3 – Tuned Random Forest (GridSearchCV)
+To further enhance model performance, **GridSearchCV** was used to perform hyperparameter tuning on the Random Forest model.
+- Parameters such as `n_estimators`, `max_depth`, and `min_samples_split` were optimized.
+- The tuning process selected the combination that yielded the best performance on validation data.
+- This model achieved the lowest error metrics and demonstrated the best balance between bias and variance.
+
+### 5. Model Evaluation
+All models were evaluated using standard regression metrics:
+- **R² Score:** To measure how well the model explains the variance in the target variable.  
+- **RMSE (Root Mean Squared Error):** To assess the model’s prediction accuracy.  
+
+| Model | R² Score | RMSE | Remarks |
+|:------|:----------|:------|:---------|
+| Linear Regression | Baseline performance | Moderate error | Simple and interpretable |
+| Random Forest | Improved accuracy | Lower error | Captured nonlinear relationships |
+| Tuned Random Forest | Highest accuracy | Lowest error | Best overall performance |
+
+### ✅ Summary
+The **Tuned Random Forest Regressor** outperformed the other models and was chosen as the final model for predicting product sales. It effectively captured complex feature interactions and delivered reliable predictions, making it well-suited for real-world sales forecasting.
+
+---
 
 ## ℹ️ Contact Information
 For any questions or recommendations:  
