@@ -87,16 +87,15 @@ Using **Matplotlib** and **Seaborn**:
 
 <img width="589" height="390" alt="image" src="https://github.com/user-attachments/assets/628d0087-b65a-43ac-a5bf-3cdb09bf6ceb" />
 
-- **Supermarket Type 1** is the most frequent  
-- **Supermarket Type 3** achieves the **highest median sales**  
-- **Grocery Stores** have the lowest sales  
+- The Outlet_Type is the most significant factor influencing sales performance. Both Supermarket Type3 and Supermarket Type1 demonstrate the highest average sales and substantial potential for peak sales. Conversely, Grocery Stores consistently show a drastically lower average and maximum sales, indicating they are the weakest-performing outlet category.
+
+
+ 
 
 ### Outlet Type & Location Interaction
 <img width="762" height="518" alt="image" src="https://github.com/user-attachments/assets/c3363036-2b67-479a-a399-d196a759e9e4" />
 
-- **Supermarket Type 3 in Tier 3** → highest average sales  
-- **Supermarket Type 1** → consistent across all tiers  
-- **Grocery Stores** → extremely low sales  
+- The Outlet_Location_Type has little effect on an item's typical sales value, as the average sales are remarkably consistent across Tier 1, Tier 2, and Tier 3 locations. However, Tier 3 locations are associated with the highest individual sales points, suggesting that while they don't boost average performance, they do host the most successful, high-volume transactions.
 
 ---
 
