@@ -83,11 +83,15 @@ Using **Matplotlib** and **Seaborn**:
 ### Outlet Type
 
 <img width="589" height="390" alt="image" src="https://github.com/user-attachments/assets/4fec295c-21b2-4925-9cdb-2d09e9e194fc" />
+
 - **Supermarket Type 1** is the most frequent  
 - **Supermarket Type 3** achieves the **highest median sales**  
 - **Grocery Stores** have the lowest sales  
 
 ### Outlet Type & Location Interaction
+<img width="762" height="518" alt="image" src="https://github.com/user-attachments/assets/c3363036-2b67-479a-a399-d196a759e9e4" />
+View interactive heatmap
+
 - **Supermarket Type 3 in Tier 3** → highest average sales  
 - **Supermarket Type 1** → consistent across all tiers  
 - **Grocery Stores** → extremely low sales  
