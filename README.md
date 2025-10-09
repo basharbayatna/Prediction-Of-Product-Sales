@@ -75,10 +75,14 @@ Using **Matplotlib** and **Seaborn**:
 ## 🔍 Key Insights
 
 ### Outlet Location Type
+<img width="590" height="390" alt="image" src="https://github.com/user-attachments/assets/43e60c2b-e7a2-4c96-b4b8-1ec8957d0528" />
+
 - **Tier 3** outlets are the most common and show the **highest median sales**  
 - **Tier 1 & Tier 2** have lower median sales and fewer extreme outliers  
 
 ### Outlet Type
+
+<img width="589" height="390" alt="image" src="https://github.com/user-attachments/assets/4fec295c-21b2-4925-9cdb-2d09e9e194fc" />
 - **Supermarket Type 1** is the most frequent  
 - **Supermarket Type 3** achieves the **highest median sales**  
 - **Grocery Stores** have the lowest sales  
