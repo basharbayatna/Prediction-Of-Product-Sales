@@ -181,46 +181,97 @@ Focus on **Supermarket Type 3** in **Tier 3 locations** for maximum sales. Avoid
 - Evaluating model performance using metrics like RMSE and R²  
 
 ---
-## 🧠 Machine Learning Model Development
+# 🧠 Machine Learning Project: Item Outlet Sales Prediction
 
-### 1. Preprocessing the Data
-Before training the models, the dataset was prepared for machine learning through several preprocessing steps:
-- **Feature Selection:** Independent variables (features) were selected from the dataset, while the target variable was the `Item_Outlet_Sales`.
-- **Handling Missing Values:** Missing data was treated appropriately to ensure model consistency and accuracy.
-- **Encoding Categorical Variables:** Categorical features were encoded into numerical form to make them suitable for machine learning algorithms.
-- **Feature Scaling:** Continuous features were scaled to standardize the data and improve model performance.
-- **Train-Test Split:** The dataset was divided into training and testing subsets to evaluate model generalization.
+## 1. Data Preprocessing
 
-### 2. Model 1 – Linear Regression
-The first model implemented was **Linear Regression**, a simple baseline model that assumes a linear relationship between the input features and the target variable.
-- It provided a reference point for evaluating more complex models.
-- While easy to interpret, its performance was limited due to the presence of nonlinear patterns and categorical interactions within the data.
+The dataset underwent a comprehensive preprocessing stage to ensure model accuracy and reliability:
 
-### 3. Model 2 – Random Forest Regressor
-Next, a **Random Forest Regressor** was trained to capture nonlinear relationships and feature interactions.
-- Random Forest, being an ensemble method of decision trees, improved prediction accuracy compared to Linear Regression.
-- It reduced overfitting through averaging multiple trees and was more robust to noise in the dataset.
-- Feature importance values were extracted to identify which features most influenced the sales prediction.
+- **Dropped unnecessary columns:** Removed `Item_Identifier` due to high cardinality.
+- **Handled missing values:** Replaced `'MISSING'` entries in `Outlet_Size` with `NaN`.
+- **Train–Test Split:** Data was split into training and testing sets with a fixed random state for reproducibility.
+- **Feature Transformation Pipelines:**
+  - **Numerical Features:** Median imputation followed by standard scaling.
+  - **Ordinal Features:** Imputed using the most frequent value, encoded with a defined order, and scaled.
+  - **Categorical Features:** Imputed using a constant value and one-hot encoded.
+- All transformations were unified using a single `ColumnTransformer`, ensuring consistent preprocessing across models.
 
-### 4. Model 3 – Tuned Random Forest (GridSearchCV)
-To further enhance model performance, **GridSearchCV** was used to perform hyperparameter tuning on the Random Forest model.
-- Parameters such as `n_estimators`, `max_depth`, and `min_samples_split` were optimized.
-- The tuning process selected the combination that yielded the best performance on validation data.
-- This model achieved the lowest error metrics and demonstrated the best balance between bias and variance.
+---
 
-### 5. Model Evaluation
-All models were evaluated using standard regression metrics:
-- **R² Score:** To measure how well the model explains the variance in the target variable.  
-- **RMSE (Root Mean Squared Error):** To assess the model’s prediction accuracy.  
+## 2. Model Development
 
-| Model | R² Score | RMSE | Remarks |
-|:------|:----------|:------|:---------|
-| Linear Regression | Baseline performance | Moderate error | Simple and interpretable |
-| Random Forest | Improved accuracy | Lower error | Captured nonlinear relationships |
-| Tuned Random Forest | Highest accuracy | Lowest error | Best overall performance |
+Three regression models were trained and compared to predict **Item Outlet Sales**:
+
+### 🔹 Linear Regression
+A baseline model assuming a linear relationship between features and sales.
+
+| Dataset | MAE | RMSE | R² |
+|----------|------|------|------|
+| **Train** | 847.15 | 1139.13 | 0.562 |
+| **Test** | 804.09 | 1092.73 | 0.567 |
+
+🧩 **Interpretation:**  
+Linear Regression provided a simple, interpretable baseline. However, it showed clear underfitting, indicating the data contained nonlinear relationships the model couldn’t capture.
+
+---
+
+### 🔹 Random Forest Regressor
+An ensemble model capable of capturing nonlinear interactions and complex feature dependencies.
+
+| Dataset | MAE | RMSE | R² |
+|----------|------|------|------|
+| **Train** | 296.23 | 426.54 | 0.939 |
+| **Test** | 765.91 | 1102.14 | 0.560 |
+
+⚠️ **Observation:**  
+The Random Forest achieved near-perfect training accuracy but performed similarly to the baseline on the test set, indicating **overfitting**.
+
+---
+
+### 🔹 Tuned Random Forest Regressor (After GridSearchCV)
+A hyperparameter-optimized version of the Random Forest model.  
+Parameters such as tree depth, number of estimators, and sample split criteria were fine-tuned to balance bias and variance.
+
+| Dataset | MAE | RMSE | R² |
+|----------|------|------|------|
+| **Train** | 755.44 | 1073.75 | 0.610 |
+| **Test** | 728.49 | 1046.52 | 0.603 |
+
+✅ **Interpretation:**  
+After tuning, the model achieved **better generalization** — reducing overfitting and improving performance on unseen data.  
+The R² score improved from **0.56 → 0.60**, and MAE decreased from **766 → 728**, indicating stronger predictive accuracy.
+
+---
+
+## 3. Model Comparison Summary
+
+| Model | Train R² | Test R² | Test MAE | Test RMSE | Notes |
+|:------|:---------:|:--------:|:---------:|:-----------:|:------|
+| Linear Regression | 0.562 | 0.567 | 804.09 | 1092.73 | Baseline model, interpretable but underfits |
+| Random Forest | 0.939 | 0.560 | 765.91 | 1102.14 | Overfitted, poor generalization |
+| Tuned Random Forest | 0.610 | 0.603 | 728.49 | 1046.52 | Best balance of bias and variance |
+
+---
+
+## 4. Evaluation and Recommendations
+
+- The **Linear Regression model** served as a good baseline but lacked the ability to capture complex patterns.  
+- The **Untuned Random Forest** significantly overfit, showing excellent training performance but weak generalization.  
+- The **Tuned Random Forest Regressor** delivered the best overall results, with improved test performance and reduced overfitting.  
+- This final model explains roughly **60% of the variance in sales** and predicts within **\$728 of the true value** on average.
+
+📊 **Final Recommendation:**  
+Deploy the **Tuned Random Forest Model** as the production-ready solution.  
+Future improvements could include:
+- More feature engineering (interaction terms, sales seasonality, regional trends)
+- Cross-validation with more folds for stability
+- Exploration of advanced ensemble models (e.g., Gradient Boosting, XGBoost, or LightGBM)
+
+---
 
 ### ✅ Summary
-The **Tuned Random Forest Regressor** outperformed the other models and was chosen as the final model for predicting product sales. It effectively captured complex feature interactions and delivered reliable predictions, making it well-suited for real-world sales forecasting.
+> The **Tuned Random Forest Regressor** achieved the best performance and generalization, making it the most reliable choice for predicting item outlet sales in this project.
+
 
 ---
 
