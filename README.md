@@ -1,4 +1,5 @@
-![logan-voss-WRmoJBqzXNA-unsplash](https://github.com/user-attachments/assets/1ca668a3-0af5-405f-ac8a-a79af6434c11)
+<img width="1200" height="628" alt="image" src="https://github.com/user-attachments/assets/48f302f7-c034-4a7d-afc3-6dcf40c52569" />
+
 
 # Prediction of Product Sales 🍎🛒
 ## Sales Prediction for Food Items
