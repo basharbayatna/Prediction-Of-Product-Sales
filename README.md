@@ -90,7 +90,6 @@ Using **Matplotlib** and **Seaborn**:
 
 ### Outlet Type & Location Interaction
 <img width="762" height="518" alt="image" src="https://github.com/user-attachments/assets/c3363036-2b67-479a-a399-d196a759e9e4" />
-View interactive heatmap
 
 - **Supermarket Type 3 in Tier 3** → highest average sales  
 - **Supermarket Type 1** → consistent across all tiers  
