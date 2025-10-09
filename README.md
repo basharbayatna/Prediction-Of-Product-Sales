@@ -175,10 +175,15 @@ Using **Matplotlib** and **Seaborn** to explore the dataset:
 Focus on **Supermarket Type 3** in **Tier 3 locations** for maximum sales. Avoid Grocery Stores in any tier. and focus on Supermarket Type 1 for stable sales across all tiers.
 
 ---
-## 🚀 Next Steps
-- Feature engineering to improve predictive power  
-- Training regression models to estimate sales  
-- Evaluating model performance using metrics like RMSE and R²  
+# 🔍 Feature Inspection
+
+Before modeling, a feature inspection step was conducted to understand the nature of each feature and its relationship with the target (`Item_Outlet_Sales`).  
+
+- **Outlet_Size:** Ordinal feature with some missing values; imputed appropriately. Mild predictor of sales.  
+- **Outlet_Location_Type:** Ordinal feature with no missing values; shows a slight relationship with sales.  
+
+Other features were inspected similarly to determine data type, missing values, cardinality, and potential impact on the target. This step helped guide preprocessing choices such as imputation, encoding, and scaling.
+
 
 ---
 # 🧠 Machine Learning Project: Item Outlet Sales Prediction
