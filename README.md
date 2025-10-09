@@ -76,7 +76,6 @@ Using **Matplotlib** and **Seaborn**:
 ## 🔍 Key Insights
 
 ### Outlet Location Type
-<img width="590" height="390" alt="image" src="https://github.com/user-attachments/assets/43e60c2b-e7a2-4c96-b4b8-1ec8957d0528" />
 
 <img width="589" height="390" alt="image" src="https://github.com/user-attachments/assets/4fec295c-21b2-4925-9cdb-2d09e9e194fc" />
 
@@ -86,7 +85,7 @@ Using **Matplotlib** and **Seaborn**:
 
 ### Outlet Type
 
-<img width="590" height="390" alt="image" src="https://github.com/user-attachments/assets/b89297f1-e6f0-4638-8a19-6598592668b1" />
+<img width="589" height="390" alt="image" src="https://github.com/user-attachments/assets/628d0087-b65a-43ac-a5bf-3cdb09bf6ceb" />
 
 - **Supermarket Type 1** is the most frequent  
 - **Supermarket Type 3** achieves the **highest median sales**  
