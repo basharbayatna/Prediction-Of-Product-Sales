@@ -182,7 +182,9 @@ Before modeling, features were inspected for:
 ## 4. Feature Importance & Coefficients Visualization
 
 ### 🔹 Top 15 Largest Coefficients (Linear Regression)
-<img width="700" height="460" alt="Top 15 Coefficients" src="https://github.com/user-attachments/assets/48f302f7-c034-4a7d-afc3-6dcf40c52569" />
+
+<img width="697" height="483" alt="image" src="https://github.com/user-attachments/assets/162dece9-f3bc-42d2-b203-f550f9b7d768" />
+
 
 The plot above displays the top coefficients from the **Linear Regression** model.  
 These coefficients represent how much each feature affects the predicted sales —  
@@ -199,7 +201,8 @@ These indicate that items from specific outlet categories have a notably higher 
 ---
 
 ### 🔹 Top 10 Most Important Features (Random Forest)
-<img width="900" height="520" alt="Top 10 Feature Importances" src="https://github.com/user-attachments/assets/b6a4679c-def0-4aab-b373-450614360430" />
+
+<img width="947" height="560" alt="image" src="https://github.com/user-attachments/assets/80788482-f8f5-4f6e-9e2f-88d66c2d1ade" />
 
 The chart above highlights the most influential features identified by the **Random Forest Regressor**.  
 Feature importance measures how much each variable contributed to reducing prediction error during training.
@@ -221,20 +224,13 @@ it shows how influential a variable is, but not whether it increases or decrease
 ## 5. Evaluation & Recommendations
 - **Linear Regression** → simple baseline; limited in capturing nonlinear patterns.  
 - **Untuned Random Forest** → strong training results but clear overfitting.  
-- **Tuned Random Forest** → best balance between bias and variance, with improved generalization (≈60% variance explained).  
+- **Tuned Random Forest** → best balance between bias and variance, with improved generalization (≈60% variance explained). 
+
+---
+
+
 
 **✅ Final Recommendation:**  
-Deploy the **Tuned Random Forest Regressor** as the production model.  
-
-**Future improvements:**
-- Add more engineered features (e.g., interactions, regional or seasonal trends).  
-- Use cross-validation for better model stability.  
-- Explore ensemble or boosting methods like **XGBoost** or **LightGBM** for potential performance gains.
-
---- 
-
-
-**Final Recommendation:**  
 Deploy the **Tuned Random Forest Regressor**. Future improvements:  
 - Additional feature engineering (interactions, seasonality, regional trends)  
 - More cross-validation folds for stability  
