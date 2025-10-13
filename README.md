@@ -171,12 +171,7 @@ Before modeling, features were inspected for:
 | Random Forest | 0.938 | 0.553 | 774.17 | 1110.36 | Overfits (high train R², weaker test performance) |
 | Tuned Random Forest | 0.619 | 0.603 | 727.15 | 1046.34 | Best balance between bias and variance |
 
----
 
-## 4. Evaluation & Recommendations
-- Linear Regression → simple baseline, cannot capture complex patterns  
-- Untuned Random Forest → overfits, poor test performance  
-- Tuned Random Forest → best generalization, explains ~60% of variance
 
 --- 
 ## 4. Feature Importance & Coefficients Visualization
