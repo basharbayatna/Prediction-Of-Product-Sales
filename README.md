@@ -147,18 +147,20 @@ Before modeling, features were inspected for:
 ### Random Forest Regressor
 | Dataset | MAE | RMSE | R² |
 |----------|------|------|------|
-| Train | 296.23 | 426.54 | 0.939 |
-| Test | 765.91 | 1102.14 | 0.560 |
+| Train | 296.57 | 428.06 | 0.938 |
+| Test | 774.17 | 1110.36 | 0.553 |
 
-*Overfitted model; excellent training performance but weak generalization.*
+*Overfitted model — excellent fit on training data but poor generalization to unseen data.*
+
+---
 
 ### Tuned Random Forest Regressor
 | Dataset | MAE | RMSE | R² |
 |----------|------|------|------|
-| Train | 755.44 | 1073.75 | 0.610 |
-| Test | 728.49 | 1046.52 | 0.603 |
+| Train | 749.24 | 1061.17 | 0.619 |
+| Test | 727.15 | 1046.34 | 0.603 |
 
-*Hyperparameter tuning improved generalization and reduced overfitting.*
+*Hyperparameter tuning reduced overfitting and improved generalization performance.*
 
 ---
 
@@ -166,8 +168,8 @@ Before modeling, features were inspected for:
 | Model | Train R² | Test R² | Test MAE | Test RMSE | Notes |
 |:------|:---------:|:--------:|:---------:|:-----------:|:------|
 | Linear Regression | 0.562 | 0.567 | 804.09 | 1092.73 | Baseline, underfits |
-| Random Forest | 0.939 | 0.560 | 765.91 | 1102.14 | Overfits |
-| Tuned Random Forest | 0.610 | 0.603 | 728.49 | 1046.52 | Best balance |
+| Random Forest | 0.938 | 0.553 | 774.17 | 1110.36 | Overfits (high train R², weaker test performance) |
+| Tuned Random Forest | 0.619 | 0.603 | 727.15 | 1046.34 | Best balance between bias and variance |
 
 ---
 
