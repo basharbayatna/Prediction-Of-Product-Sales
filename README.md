@@ -176,7 +176,63 @@ Before modeling, features were inspected for:
 ## 4. Evaluation & Recommendations
 - Linear Regression → simple baseline, cannot capture complex patterns  
 - Untuned Random Forest → overfits, poor test performance  
-- Tuned Random Forest → best generalization, explains ~60% of variance  
+- Tuned Random Forest → best generalization, explains ~60% of variance
+
+--- 
+## 4. Feature Importance & Coefficients Visualization
+
+### 🔹 Top 15 Largest Coefficients (Linear Regression)
+<img width="700" height="460" alt="Top 15 Coefficients" src="https://github.com/user-attachments/assets/48f302f7-c034-4a7d-afc3-6dcf40c52569" />
+
+The plot above displays the top coefficients from the **Linear Regression** model.  
+These coefficients represent how much each feature affects the predicted sales —  
+positive values **increase** the prediction, while negative ones **decrease** it.
+
+#### 📈 Interpretation:
+- The **3 largest coefficients** are:
+  - **Outlet_Identifier_OUT027** → if the item belongs to this outlet, the predicted sales increase by **≈1519**.  
+  - **Outlet_Type_Supermarket Type3** → if the item is sold in this outlet type, sales increase by **≈1519**.  
+  - **Outlet_Type_Supermarket Type1** → if the item is sold in this outlet type, sales increase by **≈1260**.  
+
+These indicate that items from specific outlet categories have a notably higher sales impact.
+
+---
+
+### 🔹 Top 10 Most Important Features (Random Forest)
+<img width="900" height="520" alt="Top 10 Feature Importances" src="https://github.com/user-attachments/assets/b6a4679c-def0-4aab-b373-450614360430" />
+
+The chart above highlights the most influential features identified by the **Random Forest Regressor**.  
+Feature importance measures how much each variable contributed to reducing prediction error during training.
+
+#### 🧠 Key Insights:
+The **5 most important features** are:
+- **Item_MRP**
+- **Item_Visibility**
+- **Outlet_Type_Supermarket Type1**
+- **Outlet_Type_Supermarket Type3**
+- **Item_Weight**
+
+These were the most used by the model during the learning process to make accurate predictions.  
+However, it’s important to note that **feature importance does not indicate directionality** —  
+it shows how influential a variable is, but not whether it increases or decreases sales.
+
+---
+
+## 5. Evaluation & Recommendations
+- **Linear Regression** → simple baseline; limited in capturing nonlinear patterns.  
+- **Untuned Random Forest** → strong training results but clear overfitting.  
+- **Tuned Random Forest** → best balance between bias and variance, with improved generalization (≈60% variance explained).  
+
+**✅ Final Recommendation:**  
+Deploy the **Tuned Random Forest Regressor** as the production model.  
+
+**Future improvements:**
+- Add more engineered features (e.g., interactions, regional or seasonal trends).  
+- Use cross-validation for better model stability.  
+- Explore ensemble or boosting methods like **XGBoost** or **LightGBM** for potential performance gains.
+
+--- 
+
 
 **Final Recommendation:**  
 Deploy the **Tuned Random Forest Regressor**. Future improvements:  
